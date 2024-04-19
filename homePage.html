@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Fan Website</title>
+    <link rel="stylesheet" href="homePageStyle.css">
+</head>
+<body>
+    <!-- Navbar Section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#homeId" id="navbar__logo">THE RUNDOWN</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#homeId" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#aboutId" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#searchId" class="navbar__links" id="search-page">Search</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="home" id="homeId">
+        <div class="home__container">
+            <h1 class="home__heading">Welcome to the <span>Rundown</span></h1>
+            <p class="home__description">Learn More about the MLB</p>
+            <button class="home__btn"><a href="mlbPage.html">The MLB</a></button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about" id="aboutId">
+        <div class="about__container">
+            <div class="about__img--container">
+                <div class="about__img--card"><i class="fas fa-baseball"></i></div>
+            </div>
+            <div class="about__content">
+                <h1>What is the Rundown?</h1>
+                <p>The Rundown is an interactive site that encourages and helps baseball fans learn all facets of the game.
+                    From basic rules and stats to all 30 teams and their players, its all right here.
+                </p>
+                <button class="main__btn"><a href="#">The Rulebook</a></button>
+                <button class="main__btn"><a href="#">The Statsbook</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Section -->
+    <div class="search" id="searchId">
+        <h1>Search for Players, Teams, and Stats</h1>
+        <div class="search__wrapper">
+            <div class="search__card">
+                <div class="search__btn"><button>Teams</button></div>
+            </div>
+            <div class="search__card">
+                <div class="search__btn"><button>Players</button></div>
+            </div>
+            <div class="search__card">
+                <div class="search__btn"><button>Statistics</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/">About</a>
+                    <a href="/">Jobs at TR</a>
+                    <a href="/">Conditions & Terms of Service</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a>
+                    <a href="/">Support</a>
+                    <a href="/">Use of Data</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Facebook</a>
+                    <a href="/">Instagram</a>
+                    <a href="/">Youtube</a>
+                    <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">THE RUNDOWN</a>
+                </div>
+                <p class="website__rights">© THE RUNDOWN 2024. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="homePageApp.js"></script>
+    <script src="https://kit.fontawesome.com/6280740ed4.js" crossorigin="anonymous"></script>
+</body>
+</html>
